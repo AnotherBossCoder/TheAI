@@ -17,10 +17,10 @@ public class TheAI {
 //_______________________________________________________________________________________________________________________
 	//Response
 	String main;
-	main = scan.nextLine();
+	main = scan.nextLine().toLowerCase;
 	//_______________________________________________________________________________________________________________
 		//Response to "Hello"
-		if(main.equals("hello")||(main.equals("Hello")){
+		if(main.equals("hello")||main.equals("hi")||main.equals("hey")||main.equals("who are you"){
 			if(hello==1){
 				System.out.println("Well hello to you too, underling");
 			}
