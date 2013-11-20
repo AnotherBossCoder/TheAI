@@ -11,8 +11,8 @@ public class TheAI {
 	String name = ("Master");
 //_______________________________________________________________________________________________________________________
 	//Main Line
-	System.out.println("Hello there humman i'm "+name);
-	System.out.println("What would you like to do");
+	System.out.println("Hello there human i'm "+name);
+	System.out.println("What is your request?");
 //_______________________________________________________________________________________________________________________
 	}
 
