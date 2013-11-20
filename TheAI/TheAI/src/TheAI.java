@@ -14,6 +14,12 @@ public class TheAI {
 	System.out.println("Hello there human i'm "+name);
 	System.out.println("What is your request?");
 //_______________________________________________________________________________________________________________________
+	//Response
+	String main;
+	main = scan.nextLine();
+		if(main.equals("hello")||(main.equals("Hello")){
+			
+		}
 	}
 
 }
