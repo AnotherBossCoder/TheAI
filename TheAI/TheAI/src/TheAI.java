@@ -14,6 +14,8 @@ public class TheAI {
 //_______________________________________________________________________________________________________________________
 	//variable creation section
 	int started = 1;
+	int firstnum;
+	int secondnum;
 	String name = ("Master");
 	int again = 0;//This variable will preform a lot like a boolean.
 //_______________________________________________________________________________________________________________________
@@ -70,8 +72,60 @@ public class TheAI {
 			}}
 	//_______________________________________________________________________________________________________________
 		//Response to "calculator/add/subtract/multiplication/division
-		
-		
+		else if(main.equals("calculate")||main.equals("calculator")){
+			System.out.println("What do you want your first number to be");
+			firstnum = scan.nextInt();
+			System.out.println("What sign would you like to use?");
+			else if(main.equals("addition")||main.equals("add")||main.equals("plus")||main.equals("sum")){
+				System.out.println("What would you like your second number to be?"));
+				secondnum = scan.nextInt();
+				System.out.println("The answer is "+(firstnum + secondnum);
+			}
+			else if(main.equals("subtraction")||main.equals("subtract")||main.equals("minus")||main.equals("difference")){
+				System.out.println("What would you like your second number to be?"));
+				secondnum = scan.nextInt();
+				System.out.println("The answer is "+(firstnum - secondnum);
+			}
+			else if(main.equals("multiply")||main.equals("multiplication")||main.equals("times")||main.equals("product")){
+				System.out.println("What would you like your second number to be?"));
+				secondnum = scan.nextInt();
+				System.out.println("The answer is "+(firstnum * secondnum));
+			}
+			else if(main.equals("divide")||main.equals("division")||("quotient")){
+				System.out.println("What would you like your second number to be?"));
+				secondnum = scan.nextInt();
+				System.out.println("The answer is "+(firstnum / secondnum);
+			}
+			
+		}
+		else if(main.equals("addition")||main.equals("add")||main.equals("plus")||main.equals("sum")){
+			System.out.println("What do you want your first number to be");
+			firstnum = scan.nextInt();
+			System.out.println("What would you like your second number to be?");
+			secondnum = scan.nextInt();
+			System.out.println("The answer is "+(firstnum + secondnum));
+		}
+		else if(main.equals("subtraction")||main.equals("subtract")||main.equals("minus")||main.equals("difference")){
+			System.out.println("What do you want your first number to be");
+			firstnum = scan.nextInt();
+			System.out.println("What would you like your second number to be?");
+			secondnum = scan.nextInt();
+			System.out.println("The answer is "+(firstnum - secondnum));
+		}
+		else if(main.equals("multiply")||main.equals("multiplication")||main.equals("times")||main.equals("product")){
+			System.out.println("What do you want your first number to be");
+			firstnum = scan.nextInt();
+			System.out.println("What would you like your second number to be?");
+			secondnum = scan.nextInt();
+			System.out.println("The answer is "+(firstnum * secondnum));
+		}
+		else if(main.equals("divide")||main.equals("division")||("quotient")){
+			System.out.println("What do you want your first number to be");
+			firstnum = scan.nextInt();
+			System.out.println("What would you like your second number to be?");
+			secondnum = scan.nextInt();
+			System.out.println("The answer is "+(firstnum / secondnum));
+		}
 	//_______________________________________________________________________________________________________________
 		//Response to
 		
