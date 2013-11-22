@@ -70,8 +70,21 @@ public class TheAI {
 			}}
 	//_______________________________________________________________________________________________________________
 		//Response to "calculator/add/subtract/multiplication/division
-		
-		
+		else if(main.equals("calculate")||("calculator")){
+			
+		}
+		else if(main.eqals("add")||main.equals("addition")){
+			
+		}
+		else if(main.equals("subtract")||main.equals("subtraction")){
+			
+		}
+		else if(main.equals("divide")||main.equals("division")){
+			
+		}
+		else if(main.equals("multiply")||main.equals("multiplication")||main.equals("times")){
+			
+		}
 	//_______________________________________________________________________________________________________________
 		//Response to
 		
